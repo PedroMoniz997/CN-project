@@ -1,56 +1,56 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
 }
 
-:root{
-    --cor1:#004E73;
-    --cor2:#49BEF4;
-    --cor3:#00A8F3;
-    --cor4:#225973;
-    --cor5:#0083BF;
+:root {
+    --cor1: #004E73;
+    --cor2: #49BEF4;
+    --cor3: #00A8F3;
+    --cor4: #225973;
+    --cor5: #0083BF;
 
     --font-p: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
+body {
     background-color: #49bef49f;
     font-family: var(--font-p);
     margin: 0px;
     padding: 0px;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
-    align-items:flex-end;
-    justify-content:center;
+    align-items: flex-end;
+    justify-content: center;
     background-color: var(--cor3);
     color: white;
     font-family: var(--font-p);
 }
 
-header h1{
+header h1 {
     /* font-size: 1rem; */
     font-size: 2.8rem;
     /* padding-bottom: 24px; */
     /* padding-bottom: 16px; */
 }
 
-.cabeçalho-img{
+.cabeçalho-img {
     padding-bottom: 3.5px;
     padding-right: 5px;
 }
 
-.Nav-cabeçalho{
+.Nav-cabeçalho {
     background-color: var(--cor3);
     padding: 4px;
 }
 
-.Nav-link{
+.Nav-link {
     color: white;
     font-family: var(--font-p);
     font-weight: bold;
@@ -58,13 +58,13 @@ header h1{
     border-radius: 5px 5px 0px 0px;
 }
 
-.Nav-link:hover{
+.Nav-link:hover {
     background-color: var(--cor2);
     color: var(--cor5);
     text-decoration: underline;
 }
 
-main{
+main {
     background-color: white;
     min-width: 250px;
     max-width: 800px;
@@ -75,29 +75,29 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
-main h2{
+main h2 {
     text-align: center;
     color: var(--cor5);
     padding-bottom: 20px;
 }
 
-article{
+article {
     columns: 2;
 }
 
-.music{
+.music {
     width: 300px;
     text-align: center;
     padding: 10px;
 }
 
-.music-img{
+.music-img {
     width: 300px;
     height: 170px;
     border-radius: 10px;
 }
 
-footer{
+footer {
     background-color: var(--cor3);
     margin: 0px;
     padding: 0px;
